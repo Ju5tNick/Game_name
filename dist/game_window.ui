@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QWidget</class>
+ <widget class="QWidget" name="QWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>972</width>
+    <height>589</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>40</y>
+     <width>161</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>День</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Осталось действий: </string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="move_button">
+        <property name="text">
+         <string>В путь</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="day_end_button">
+        <property name="text">
+         <string>Закончить день</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="info_screen"/>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="exit_button">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>515</y>
+     <width>157</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Выход</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="change_weapon_btn">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>290</y>
+     <width>158</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Сменить оружие на след.</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pick_up_button">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>260</y>
+     <width>158</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Подобрать</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="attack_button">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>260</y>
+     <width>158</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Атаковать</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="show_range_button">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>260</y>
+     <width>158</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Показать диапазон</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
